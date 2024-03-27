@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VentanasPopUp.MainPage">
+
+    <VerticalStackLayout
+            Padding="60,0"
+            Spacing="10" VerticalOptions="Center" >
+
+        <Button
+                x:Name="BtnTransacciones" Text="Transacciones" Clicked="BtnTransacciones_Clicked"
+             TextColor="White" WidthRequest="160" HeightRequest="40"
+         FontSize="14" FontFamily="Mplus 1p" FontAttributes="Bold" BackgroundColor="#2F7142" 
+         BorderColor="Black" BorderWidth="2" Margin="0,15,0,0" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+        <Button
+         x:Name="BtnServicios" Text="Servicios" Clicked="BtnServicios_Clicked"
+        TextColor="White" WidthRequest="160" HeightRequest="40"
+     FontSize="14" FontFamily="Mplus 1p" FontAttributes="Bold" BackgroundColor="#2F7142" 
+     BorderColor="Black" BorderWidth="2" Margin="0,15,0,0" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Button
+                x:Name="BtnError" Text="Alerta Error" Clicked="BtnError_Clicked"
+                    TextColor="White" WidthRequest="160" HeightRequest="40"
+     FontSize="14" FontFamily="Mplus 1p" FontAttributes="Bold" BackgroundColor="#2F7142" 
+     BorderColor="Black" BorderWidth="2" Margin="0,15,0,0" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+        <Button
+        x:Name="BtnUsuario" Text="Usuario Creado" Clicked="BtnUsuario_Clicked"
+           TextColor="White" WidthRequest="160" HeightRequest="40"
+     FontSize="14" FontFamily="Mplus 1p" FontAttributes="Bold" BackgroundColor="#2F7142" 
+     BorderColor="Black" BorderWidth="2" Margin="0,15,0,0" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+        <Button
+ x:Name="BtnFondos" Text="Fondos insuficientes" Clicked="BtnFondos_Clicked"
+     TextColor="White" WidthRequest="160" HeightRequest="40"
+     FontSize="14" FontFamily="Mplus 1p" FontAttributes="Bold" BackgroundColor="#2F7142" 
+     BorderColor="Black" BorderWidth="2" Margin="0,15,0,0" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+    </VerticalStackLayout>
+
+</ContentPage>
